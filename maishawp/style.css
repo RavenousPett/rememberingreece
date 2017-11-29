@@ -9393,3 +9393,13 @@ p > video {
     min-height: 430px;
     background-position: 0 -50px;
 }
+
+/** -- Large Tablet and Narrower -- **/
+
+/* Large Tablet and Narrower */
+@media screen and (max-width: 48.75em) {
+    #homepage-banner{
+        background-position: right top;
+        min-height: 240px;
+    }
+}
