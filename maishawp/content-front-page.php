@@ -10,7 +10,7 @@
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<?php $image_id = get_post_thumbnail_id(); ?>
 			<?php $image_url = wp_get_attachment_image_src($image_id,'full');   ?>
-			<div class="cd-fixed-bg cd-bg-1" style="background-image:url(<?php echo esc_url( $image_url[0] ); ?>);"></div>
+			<div id="homepage-banner" class="cd-fixed-bg cd-bg-1" style="background-image:url(<?php echo esc_url( $image_url[0] ); ?>);"></div>
 			<?php if($post->post_content=="") : ?>
 			<?php else : ?>
 			<div class="content-caption">

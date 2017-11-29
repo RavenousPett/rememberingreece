@@ -9388,3 +9388,8 @@ p > video {
 #header-image{
     max-width: inherit;
 }
+
+#homepage-banner{
+    min-height: 430px;
+    background-position: 0 -50px;
+}

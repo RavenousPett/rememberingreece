@@ -1,4 +1,4 @@
-450x180<?php
+<?php
 /**
  * The template for displaying the header
  *
