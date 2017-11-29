@@ -1,0 +1,1 @@
+On 'Dontation' page, removed form shortcode '[give_form id="2995"]'
