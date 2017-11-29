@@ -24,7 +24,7 @@
 			<a class="skip-link screen-reader-text" href="#site"><?php esc_html_e( 'Skip to content', 'maisha' ); ?></a>
 			<header id="masthead" class="site-header" role="banner">
 				<div class="header-inner">
-					<?php maisha_the_custom_logo(); ?>
+					<img src="http://via.placeholder.com/275x110" />
 					<?php if ( is_front_page() && is_home() ) : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php else : ?>
@@ -61,7 +61,7 @@
 		<div class="content site-content">
 			<a class="skip-link screen-reader-text" href="#site"><?php esc_html_e( 'Skip to content', 'maisha' ); ?></a>
 			<header id="masthead" class="site-header" role="banner">
-					<?php maisha_the_custom_logo(); ?>
+					<img src="http://via.placeholder.com/275x110" />
 					<?php if ( is_front_page() && is_home() ) : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php else : ?>
@@ -99,7 +99,7 @@
 				<a class="skip-link screen-reader-text" href="#site"><?php esc_html_e( 'Skip to content', 'maisha' ); ?></a>
 				<header id="masthead" class="site-header" role="banner">
 				<div class="header-inner">
-					<?php maisha_the_custom_logo(); ?>
+					<img src="http://via.placeholder.com/275x110" />
 					<?php if ( is_front_page() && is_home() ) : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php else : ?>
