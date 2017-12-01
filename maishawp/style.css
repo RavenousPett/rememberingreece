@@ -9384,7 +9384,11 @@ p > video {
 	}
 }
 
-/* Custom Styles */
+/**/
+/** ---- Custom Styles ---- **/
+/**/
+
+/** - Homepage - **/
 #header-image{
     max-width: inherit;
 }
@@ -9394,11 +9398,37 @@ p > video {
     background-position: 0 -50px;
 }
 
+/** - Navigation - **/
 ul#primary-menu li{
     padding: 12px;
 }
 
-/** -- Large Tablet and Narrower -- **/
+/* Home - red */
+ul#primary-menu li#menu-item-874{
+    background-color: #be0712;
+}
+
+/* About Reece - orange */
+ul#primary-menu li#menu-item-867{
+    background-color: #eb7d3c;
+}
+
+/* Events - yellow */
+ul#primary-menu li#menu-item-2479{
+    background-color: #fffd38;
+}
+
+/* Awareness - green */
+ul#primary-menu li#menu-item-877{
+    background-color: #94ce58;
+}
+
+/* Contact - blue */
+ul#primary-menu li#menu-item-864{
+    background-color: #1eb1ed;
+}
+
+/** - Media Queries - **/
 
 /* Large Tablet and Narrower */
 @media screen and (max-width: 48.75em) {
