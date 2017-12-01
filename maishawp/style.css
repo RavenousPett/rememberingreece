@@ -9401,6 +9401,19 @@ p > video {
 /** - Navigation - **/
 ul#primary-menu li{
     padding: 12px;
+    margin-bottom: 3px;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+
+ul#primary-menu li:hover{
+    opacity: 0.7;
+}
+
+ul#primary-menu li a{
+    color: white;
 }
 
 /* Home - red */
@@ -9416,6 +9429,20 @@ ul#primary-menu li#menu-item-867{
 /* Events - yellow */
 ul#primary-menu li#menu-item-2479{
     background-color: #fffd38;
+}
+
+ul#primary-menu li#menu-item-2479 a{
+    color: gray;
+}
+
+/* Mobile nav */
+.main-small-navigation .menu-mainnav-container{
+    background-color: transparent;
+}
+
+.main-small-navigation a{
+    border-bottom: 0px;
+    padding: 0px;
 }
 
 /* Awareness - green */
