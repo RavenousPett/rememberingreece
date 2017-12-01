@@ -9400,16 +9400,19 @@ p > video {
 
 #header-donate{
     width: 100%;
-    background-color: purple;
     height: 75px;
     margin-bottom: 3px;
+}
+
+#header-donate .justgiving-dontate-btn{
+    float: right;
+    margin-left: 5px;
 }
 
 #header-donate .social-icon{
     width: 55px;
     height: 55px;
-    background-color: brown;
-    float: left;
+    float: right;
     margin-right: 3px;
 }
 
@@ -9471,6 +9474,31 @@ ul#primary-menu li#menu-item-864{
 }
 
 /** - Media Queries - **/
+
+/* Hide the social icons */
+
+@media screen and (max-width: 1011px) {
+    #header-donate .social-icon{
+        display: none;
+    }
+}
+
+/* Small Desktop and Narrower */
+@media screen and (max-width: 955px) {
+    #secondary {
+        margin-top: inherit;
+    }
+
+    #header-donate{
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    #header-donate .justgiving-dontate-btn{
+        float: inherit;
+        margin-left: 0px;
+    }
+}
 
 /* Large Tablet and Narrower */
 @media screen and (max-width: 48.75em) {

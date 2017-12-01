@@ -115,14 +115,18 @@
 
                         <div id="header-donate">
 
+                            <!-- Just Giving Button -->
+                            <a class="justgiving-dontate-btn" href="//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6ImU1NGVkYWJkLTA1OTYtNDNhMi1hNDQwLTE2YTk5ZDQ1YmJhNSIsIkNoYXJpdHlJZCI6MTgzMDkyLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJEb25hdGUifQ=="><img src="//widgets.justgiving.com/Button?p=eyJJZCI6ImU1NGVkYWJkLTA1OTYtNDNhMi1hNDQwLTE2YTk5ZDQ1YmJhNSIsIkNoYXJpdHlJZCI6MTgzMDkyLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJEb25hdGUifQ==" /></a>
+
                             <!-- Facebook -->
-                            <a href="#" class="social-icon facebook"></a>
+                            <a href="https://facebook.com" class="social-icon facebook">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/fb-logo-50x50.png" />
+                            </a>
 
                             <!-- Twitter -->
-                            <a href="#" class="social-icon twitter"></a>
-
-                            <!-- Just Giving Button -->
-                            <a href="//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6ImU1NGVkYWJkLTA1OTYtNDNhMi1hNDQwLTE2YTk5ZDQ1YmJhNSIsIkNoYXJpdHlJZCI6MTgzMDkyLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJEb25hdGUifQ=="><img src="//widgets.justgiving.com/Button?p=eyJJZCI6ImU1NGVkYWJkLTA1OTYtNDNhMi1hNDQwLTE2YTk5ZDQ1YmJhNSIsIkNoYXJpdHlJZCI6MTgzMDkyLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJEb25hdGUifQ==" /></a>
+                            <a href="https://twitter.com" class="social-icon twitter">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/twitter-logo-50x50.png" />
+                            </a>
 
                         </div>
 
