@@ -9394,6 +9394,10 @@ p > video {
     background-position: 0 -50px;
 }
 
+ul#primary-menu li{
+    padding: 12px;
+}
+
 /** -- Large Tablet and Narrower -- **/
 
 /* Large Tablet and Narrower */
