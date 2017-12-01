@@ -110,7 +110,22 @@
 					<p class="site-description"><?php echo $description; ?></p>
 					<?php endif; ?>
 					<?php if ( has_nav_menu( 'primary' ) ) : ?>
-						<div id="secondary">
+
+                        <div id="secondary">
+
+                        <div id="header-donate">
+
+                            <!-- Facebook -->
+                            <a href="#" class="social-icon facebook"></a>
+
+                            <!-- Twitter -->
+                            <a href="#" class="social-icon twitter"></a>
+
+                            <!-- Just Giving Button -->
+                            <a href="//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6ImU1NGVkYWJkLTA1OTYtNDNhMi1hNDQwLTE2YTk5ZDQ1YmJhNSIsIkNoYXJpdHlJZCI6MTgzMDkyLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJEb25hdGUifQ=="><img src="//widgets.justgiving.com/Button?p=eyJJZCI6ImU1NGVkYWJkLTA1OTYtNDNhMi1hNDQwLTE2YTk5ZDQ1YmJhNSIsIkNoYXJpdHlJZCI6MTgzMDkyLCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJEb25hdGUifQ==" /></a>
+
+                        </div>
+
 						<nav id="site-navigation" class="navigation-main" role="navigation">
 						<button class="menu-toggle anarielgenericon" aria-controls="primary-menu" aria-expanded="false"><span><?php esc_html_e( 'Primary Menu', 'maisha' ); ?></span></button>
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu', 'menu_class' => 'nav-menu' ) ); ?>

@@ -9398,6 +9398,21 @@ p > video {
     background-position: 0 -50px;
 }
 
+#header-donate{
+    width: 100%;
+    background-color: purple;
+    height: 75px;
+    margin-bottom: 3px;
+}
+
+#header-donate .social-icon{
+    width: 55px;
+    height: 55px;
+    background-color: brown;
+    float: left;
+    margin-right: 3px;
+}
+
 /** - Navigation - **/
 ul#primary-menu li{
     padding: 12px;
