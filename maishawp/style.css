@@ -9399,8 +9399,12 @@ p > video {
 }
 
 #homepage-banner{
-    min-height: 430px;
-    background-position: 0 -50px;
+    min-height: 330px;
+    background-position: 0 -120px;
+}
+
+#post-1176 .content-caption{
+    top: 11%;
 }
 
 #header-donate{
