@@ -24,7 +24,9 @@
 			<a class="skip-link screen-reader-text" href="#site"><?php esc_html_e( 'Skip to content', 'maisha' ); ?></a>
 			<header id="masthead" class="site-header" role="banner">
 				<div class="header-inner">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Remebering-Reece-Logo-450x194.jpg" id="header-image" />
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Remebering-Reece-Logo-450x194.jpg" id="header-image" />
+                    </a>
 					<?php if ( is_front_page() && is_home() ) : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php else : ?>
@@ -47,9 +49,9 @@
 		</div><!-- .site-content -->
 	</div><!-- .headerblock -->
 	<?php if(!get_theme_mod('maisha_search_top')) : ?>
-	<div class="search-toggle">
-		<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php esc_html_e( 'Search', 'maisha' ); ?></a>
-	</div>
+    <!-- <div class="search-toggle">
+		<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php /* esc_html_e( 'Search', 'maisha' ); */ ?></a>
+	</div> -->
 	<div id="search-container" class="search-box-wrapper hide">
 		<div class="search-box">
 			<?php get_search_form(); ?>
@@ -61,8 +63,10 @@
 		<div class="content site-content">
 			<a class="skip-link screen-reader-text" href="#site"><?php esc_html_e( 'Skip to content', 'maisha' ); ?></a>
 			<header id="masthead" class="site-header" role="banner">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Remebering-Reece-Logo-450x194.jpg" id="header-image" />
-					<?php if ( is_front_page() && is_home() ) : ?>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Remebering-Reece-Logo-450x194.jpg" id="header-image" />
+                    </a>
+                    <?php if ( is_front_page() && is_home() ) : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php else : ?>
 					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
@@ -83,9 +87,9 @@
 		</div><!-- .site-content -->
 	</div><!-- .headerblock -->
 	<?php if(!get_theme_mod('maisha_search_top')) : ?>
-	<div class="search-toggle">
-		<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php esc_html_e( 'Search', 'maisha' ); ?></a>
-	</div>
+    <!-- <div class="search-toggle">
+		<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php /* esc_html_e( 'Search', 'maisha' ); */ ?></a>
+	</div> -->
 	<div id="search-container" class="search-box-wrapper hide">
 		<div class="search-box">
 			<?php get_search_form(); ?>
@@ -99,8 +103,10 @@
 				<a class="skip-link screen-reader-text" href="#site"><?php esc_html_e( 'Skip to content', 'maisha' ); ?></a>
 				<header id="masthead" class="site-header" role="banner">
 				<div class="header-inner">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Remebering-Reece-Logo-450x194.jpg" id="header-image" />
-					<?php if ( is_front_page() && is_home() ) : ?>
+                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Remebering-Reece-Logo-450x194.jpg" id="header-image" />
+                    </a>
+                    <?php if ( is_front_page() && is_home() ) : ?>
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<?php else : ?>
 					<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
@@ -141,9 +147,9 @@
 			</div><!-- .site-content -->
 		</div><!-- .headerblock -->
 		<?php if(!get_theme_mod('maisha_search_top')) : ?>
-		<div class="search-toggle">
-			<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php esc_html_e( 'Search', 'maisha' ); ?></a>
-		</div>
+		<!-- <div class="search-toggle">
+			<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php /* esc_html_e( 'Search', 'maisha' ); */ ?></a>
+		</div> -->
 		<div id="search-container" class="search-box-wrapper hide">
 			<div class="search-box">
 				<?php get_search_form(); ?>
