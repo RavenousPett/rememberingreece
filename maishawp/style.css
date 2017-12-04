@@ -9462,6 +9462,21 @@ ul#primary-menu li#menu-item-2479 a{
     color: gray;
 }
 
+/* Awareness - green */
+ul#primary-menu li#menu-item-877{
+    background-color: #94ce58;
+}
+
+/* Contact - blue */
+ul#primary-menu li#menu-item-864{
+    background-color: #1eb1ed;
+}
+
+/* Donation - purple */
+ul#primary-menu li#menu-item-3031 a{
+    color: #9765a9;
+}
+
 /* Mobile nav */
 .main-small-navigation .menu-mainnav-container{
     background-color: transparent;
@@ -9472,15 +9487,6 @@ ul#primary-menu li#menu-item-2479 a{
     padding: 0px;
 }
 
-/* Awareness - green */
-ul#primary-menu li#menu-item-877{
-    background-color: #94ce58;
-}
-
-/* Contact - blue */
-ul#primary-menu li#menu-item-864{
-    background-color: #1eb1ed;
-}
 
 /** - Media Queries - **/
 
