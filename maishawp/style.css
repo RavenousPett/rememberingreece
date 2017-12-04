@@ -9388,6 +9388,11 @@ p > video {
 /** ---- Custom Styles ---- **/
 /**/
 
+/** - Headers - **/
+.headerblock{
+    padding-top: 190px;
+}
+
 /** - Homepage - **/
 #header-image{
     max-width: inherit;
