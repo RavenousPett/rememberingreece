@@ -9427,12 +9427,13 @@ p > video {
 
 /** - Navigation - **/
 ul#primary-menu li{
-    padding: 12px;
-    margin-bottom: 3px;
+    padding: 8px;
+    margin-bottom: 7px;
     transition: opacity .3s ease-out;
     -moz-transition: opacity .3s ease-out;
     -webkit-transition: opacity .3s ease-out;
     -o-transition: opacity .3s ease-out;
+    margin-right: 4px;
 }
 
 ul#primary-menu li:hover{
@@ -9441,6 +9442,8 @@ ul#primary-menu li:hover{
 
 ul#primary-menu li a{
     color: white;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 /* Home - red */
@@ -9473,8 +9476,8 @@ ul#primary-menu li#menu-item-864{
 }
 
 /* Donation - purple */
-ul#primary-menu li#menu-item-3031 a{
-    color: #9765a9;
+ul#primary-menu li#menu-item-3031{
+    background-color: #9765a9;
 }
 
 /* Mobile nav */
