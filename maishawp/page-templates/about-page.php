@@ -24,5 +24,5 @@ get_header(); ?>
 		?>
 	</div><!-- .intro -->
 	<?php maisha_featured_aboutpage_one(); ?>
-	<?php maisha_featured_aboutpage_two(); ?>
+	<?php /* maisha_featured_aboutpage_two(); */ ?>
 <?php get_footer(); ?>
