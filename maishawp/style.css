@@ -9388,12 +9388,12 @@ p > video {
 /** ---- Custom Styles ---- **/
 /**/
 
-/** - Headers - **/
+/*** - Headers - ***/
 .headerblock{
     padding-top: 190px;
 }
 
-/** - Homepage - **/
+/*** - Homepage - ***/
 #header-image{
     max-width: inherit;
 }
@@ -9423,6 +9423,14 @@ p > video {
     height: 55px;
     float: right;
     margin-right: 3px;
+}
+
+/* Footer blocks */
+.block-four figure img {
+    /* Remove the grey filter */
+	filter: none; /* Firefox 10+ */
+	filter: none; /* IE6-9 */
+	-webkit-filter: none; /* Chrome 19+ & Safari 6+ */
 }
 
 /** - Navigation - **/
